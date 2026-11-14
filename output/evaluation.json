@@ -1,0 +1,47 @@
+{
+  "classes": {
+    "not_blond": {
+      "fake_pairwise_rmse": 0.359,
+      "real_pairwise_rmse": 0.3745,
+      "fake_pixel_std": 0.2497,
+      "real_pixel_std": 0.2638,
+      "fake_hair_mean": 0.3448,
+      "real_hair_mean": 0.3756,
+      "fake_face_mean": 0.4999,
+      "real_face_mean": 0.5427
+    },
+    "blond": {
+      "fake_pairwise_rmse": 0.3197,
+      "real_pairwise_rmse": 0.3623,
+      "fake_pixel_std": 0.221,
+      "real_pixel_std": 0.252,
+      "fake_hair_mean": 0.5024,
+      "real_hair_mean": 0.5097,
+      "fake_face_mean": 0.5885,
+      "real_face_mean": 0.6108
+    }
+  },
+  "difference_rgb": {
+    "hair_rgb_blond_minus_not": [
+      0.1988,
+      0.1696,
+      0.1209
+    ],
+    "face_rgb_blond_minus_not": [
+      0.0848,
+      0.1135,
+      0.088
+    ]
+  },
+  "paired_label_flip": {
+    "n": 64,
+    "hair_mean_blond_minus_not": 0.1631,
+    "hair_gap_positive_fraction": 1.0,
+    "face_mean_blond_minus_not": 0.0954,
+    "face_gap_positive_fraction": 1.0
+  },
+  "real_unpaired_gap": {
+    "hair_mean_blond_minus_not": 0.1341,
+    "face_mean_blond_minus_not": 0.068
+  }
+}

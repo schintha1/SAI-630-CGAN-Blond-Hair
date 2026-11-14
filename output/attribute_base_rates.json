@@ -1,0 +1,47 @@
+{
+  "n": 202599,
+  "n_blond": 29983,
+  "blond_rate": 0.148,
+  "correlates": {
+    "Male": {
+      "P_given_blond": 0.0583,
+      "P_given_not_blond": 0.479
+    },
+    "Heavy_Makeup": {
+      "P_given_blond": 0.6751,
+      "P_given_not_blond": 0.3369
+    },
+    "Pale_Skin": {
+      "P_given_blond": 0.0712,
+      "P_given_not_blond": 0.038
+    },
+    "Attractive": {
+      "P_given_blond": 0.6981,
+      "P_given_not_blond": 0.4803
+    },
+    "Smiling": {
+      "P_given_blond": 0.5902,
+      "P_given_not_blond": 0.4633
+    },
+    "Black_Hair": {
+      "P_given_blond": 0.0001,
+      "P_given_not_blond": 0.2808
+    },
+    "Brown_Hair": {
+      "P_given_blond": 0.0407,
+      "P_given_not_blond": 0.2338
+    },
+    "Wavy_Hair": {
+      "P_given_blond": 0.4632,
+      "P_given_not_blond": 0.2946
+    },
+    "Bangs": {
+      "P_given_blond": 0.2366,
+      "P_given_not_blond": 0.1368
+    },
+    "Young": {
+      "P_given_blond": 0.8262,
+      "P_given_not_blond": 0.7645
+    }
+  }
+}

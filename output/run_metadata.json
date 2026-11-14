@@ -1,0 +1,20 @@
+{
+  "label": "Blond_Hair",
+  "class_0": "not blond, one-hot [1, 0], CelebA attribute != 1",
+  "class_1": "blond, one-hot [0, 1], CelebA attribute == 1",
+  "images": 202599,
+  "blond_images": 29983,
+  "blond_rate": 0.14799184596172735,
+  "image_size": 64,
+  "z_dim": 32,
+  "batch_size": 128,
+  "steps": 2000,
+  "critic_steps": 3,
+  "gp_weight": 10.0,
+  "learning_rate": 5e-05,
+  "adam_beta_1": 0.5,
+  "adam_beta_2": 0.9,
+  "seed": 42,
+  "minutes": 72.56,
+  "filenames_in_attribute_file": 202599
+}

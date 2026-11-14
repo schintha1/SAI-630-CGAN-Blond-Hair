@@ -1,0 +1,8 @@
+Generator noise shape:        (128, 32)
+Generator one-hot shape:      (128, 2)
+Generator image shape:        (128, 64, 64, 3)
+Critic label-map shape:       (128, 64, 64, 2)
+Critic score shape:           (128, 1)
+Map pixel (0, 0) equals vector: True
+Map pixel (63, 63) equals vector: True
+Critic called with the unexpanded vector: ValueError: Input 1 with name 'input_layer_1' of layer 'critic' is incompatible with the layer: expected shape=(None, 64, 64, 2), found shape=(128, 2)
